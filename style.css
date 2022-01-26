@@ -29,6 +29,47 @@ header{
     font-family: var(--font-poppins);
 }
 .logo h5{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
+}
+/* carousel */
+.carousel-edit{
+    font-family: var(--font-poppins);
+}
+.carousel-edit h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+ p{
+    font-weight: 300;
+    font-size: .98rem;
+    Width: 456px;
+    Height: 48px;
+    margin-left: 210px;
+}
+.carousel-edit a{
+    color:var(--color-3-and-bg-main);
+    margin-bottom: 50px;
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .carousel-edit h1{
+        font-weight: 700;
+        font-size: 1.2rem;
+        
+    }
+    .carousel-edit p{
+        font-weight: 300;
+        font-size: .60rem;
+        Width: 220px;
+        Height: 72px;
+        margin-left: 17px;
+        padding-top: 20px;
+    }
 }
