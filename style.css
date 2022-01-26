@@ -3,4 +3,32 @@
     --font-monrope:'Manrope', sans-serif;
     --font-poppins:'Poppins', sans-serif;
     --font-roboto:'Roboto', sans-serif;
+    --color-1:#3E3E3E;
+    --color-2-and-bg-sub-main:#FFFFFF;
+    --color-3-and-bg-main:#3F87F5;
+    --color-4:#0A0826;
+    --color-5:#6C6C6C;
+    --color-6:#505050;
+    --color-7:#231D4F;
+    --color-8:#848199;
+    --color-9-and-bg-mark:#5243C2;
+    --color-10:#0C1920;
+    --color-11:#0D0925;
+    --color-12:#383838;
+    --color-13:#7E848C;
+    --color-14:#D9DBE1;
+    --color-15:#747474;
+    --background-color-footer:#0B0D17;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header start */
+header{
+    font-family: var(--font-poppins);
+}
+.logo h5{
+    font-size: 22px;
+    font-weight: 700;
 }
