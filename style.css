@@ -217,7 +217,10 @@ header{
     line-height: 28px;
 }
 /* footer */
-
+footer{
+    height: 280px;
+    background: var(--background-color-footer);
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
