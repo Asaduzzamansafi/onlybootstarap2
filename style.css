@@ -118,6 +118,7 @@ header{
 .card-edit button{
     color: var(--color-3-and-bg-main);
     font-size: 15px;
+    margin-left: 30px;
 }
 .special-card{
     Width: 292px;
@@ -132,7 +133,7 @@ header{
     color: var(--color-2-and-bg-sub-main);
     padding: 50px 0 0 30px;
     margin-top: -100px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
 .special-card span{
     position: relative;
@@ -150,15 +151,17 @@ header{
     font-size: 36px;
 }
 .special-card-p{
-    Width: 232px;
+    Width: 210px;
     Height: 46px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 19px;
 }
 .special-card p{
     font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 15px;
+    line-height: 7px;
 }
 .special-card i{
     color: var(--color-2-and-bg-sub-main);
@@ -168,6 +171,36 @@ header{
     border-radius: 24px;
     padding: 8px 50px;
     margin-left: 10px;
+}
+/* happy clints */
+.happy-clints{
+    margin: 100px 0 100px 0;
+    text-align: center;
+    font-size: 38px;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    color: var(--color-4);
+}
+.clint{
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    font-family: var(--font-poppins);
+}
+.clint p{
+    font-size: 16px;
+    font-weight: 400;
+    Width: 253px;
+    Height: 104px;
+    color: var(--color-5);
+}
+.clint h1{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-10);
+}
+.post{
+    color: var(--color-15);
 }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -207,5 +240,20 @@ header{
     .cards{
         display: flex;
         flex-direction: column;
+    }
+    .Our-package-h1{
+        padding-top: 80px;
+    }
+    .card-1{
+        margin:-70px 0 0 32px;
+    }
+    .card-2{
+        margin:32px 0 0 32px;
+    }
+    .special-card{
+        margin:30px 0 0 32px;;
+    }
+    .card-4{
+        margin:32px 0 100px 32px;;
     }
 }
